@@ -1,0 +1,34 @@
+# Polymarket Bot Dependencies
+# Phase 1: Core Engine
+
+# Polymarket CLOB Client
+py-clob-client>=0.18.0
+
+# Async HTTP
+aiohttp>=3.9.0
+httpx>=0.26.0
+
+# Data handling
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Configuration
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+rich>=13.7.0
+
+# Utilities
+python-dateutil>=2.8.0
+tenacity>=8.2.0  # Retry logic
+
+# Web3 (for wallet operations)
+web3>=6.15.0
+eth-account>=0.11.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
